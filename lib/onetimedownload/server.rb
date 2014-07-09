@@ -10,12 +10,16 @@ module OneTimeDownload
       @file = File.new file
       @daemon = WEBrick::HTTPServer.new Port: 8000
       @daemon.mount_proc('/') do |_, res|
-        res.body = 'Hello, world!'
+        res.body = serve!
       end
     end
 
-    def serve!
+    def start
       @daemon.start
+    end
+
+    def serve!
+      @file.data
     end
   end
 end

@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'onetimedownload'
+
+path = ARGV.first
+
+unless path
+  puts 'Usage: otd /path/to/file'
+  exit 1
+end
+
+OneTimeDownload.new(path).start

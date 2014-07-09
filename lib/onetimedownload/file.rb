@@ -2,12 +2,11 @@ module OneTimeDownload
   ##
   # File object
   class File
-    def initialize(object)
-      @raw = object.respond_to?(:read) ? object : File.new(object, 'r+b')
-    end
+    attr_reader :data
 
-    def serve!
-      @raw.read
+    def initialize(object)
+      object = ::File.new(object, 'r+b') unless object.respond_to?(:read)
+      @data = object.read
     end
   end
 end
