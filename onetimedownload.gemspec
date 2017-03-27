@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'mercenary', '~> 0.3.4'
 
-  s.add_development_dependency 'rubocop', '~> 0.47.0'
+  s.add_development_dependency 'rubocop', '~> 0.48.0'
   s.add_development_dependency 'rake', '~> 12.0.0'
   s.add_development_dependency 'coveralls', '~> 0.8.0'
   s.add_development_dependency 'rspec', '~> 3.5.0'
