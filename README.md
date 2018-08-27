@@ -4,7 +4,6 @@ onetimedownload
 =========
 
 [![Gem Version](https://img.shields.io/gem/v/onetimedownload.svg)](https://rubygems.org/gems/onetimedownload)
-[![Dependency Status](https://img.shields.io/gemnasium/akerl/onetimedownload.svg)](https://gemnasium.com/akerl/onetimedownload)
 [![Code Climate](https://img.shields.io/codeclimate/github/akerl/onetimedownload.svg)](https://codeclimate.com/github/akerl/onetimedownload)
 [![Coverage Status](https://img.shields.io/coveralls/akerl/onetimedownload.svg)](https://coveralls.io/r/akerl/onetimedownload)
 [![Build Status](https://img.shields.io/travis/akerl/onetimedownload.svg)](https://travis-ci.org/akerl/onetimedownload)
