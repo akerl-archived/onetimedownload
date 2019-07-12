@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'mercenary', '~> 0.3.4'
 
   s.add_development_dependency 'rubocop', '~> 0.72.0'
-  s.add_development_dependency 'goodcop', '~> 0.7.0'
+  s.add_development_dependency 'goodcop', '~> 0.7.1'
   s.add_development_dependency 'rake', '~> 12.3.0'
   s.add_development_dependency 'coveralls', '~> 0.8.0'
   s.add_development_dependency 'rspec', '~> 3.8.0'
