@@ -21,5 +21,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake', '~> 13.0.0'
   s.add_development_dependency 'coveralls', '~> 0.8.0'
   s.add_development_dependency 'rspec', '~> 3.9.0'
-  s.add_development_dependency 'fuubar', '~> 2.4.1'
+  s.add_development_dependency 'fuubar', '~> 2.5.0'
 end
